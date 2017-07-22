@@ -1,13 +1,13 @@
 {
   "name": "react-input-autosize",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Auto-resizing Input Component for React",
   "main": "lib/AutosizeInput.js",
-  "author": "Jed Watson",
+  "author": "Basant Besra",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JedWatson/react-input-autosize.git"
+    "url": "https://github.com/besrabasant/react-input-autosize.git"
   },
   "dependencies": {
     "create-react-class": "^15.5.2",
