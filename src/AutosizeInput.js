@@ -143,14 +143,14 @@ const AutosizeInput = createClass({
 		delete inputProps.onAutosize;
 		delete inputProps.placeholderIsMinWidth;
 		return (
-			<div className={this.props.className} style={wrapperStyle}>
+			<span className={this.props.className} style={wrapperStyle}>
 				<input {...inputProps} ref={this.inputRef} />
-				<div ref={this.sizerRef} style={sizerStyle}>{sizerValue}</div>
+				<span ref={this.sizerRef} style={sizerStyle}>{sizerValue}</span>
 				{this.props.placeholder
-					? <div ref={this.placeHolderSizerRef} style={sizerStyle}>{this.props.placeholder}</div>
+					? <span ref={this.placeHolderSizerRef} style={sizerStyle}>{this.props.placeholder}</span>
 					: null
 				}
-			</div>
+			</span>
 		);
 	},
 });
